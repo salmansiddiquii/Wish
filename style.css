@@ -1,0 +1,97 @@
+/*
+.big-tittle {
+    color: yellow;
+    font-size: 10rem;
+    font-family: cursive ;
+
+}
+
+.box-shadow {
+    box-shadow:2px 2px rgb(55, 71, 131);
+}
+*/
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+     height: 100vh;
+} 
+h2{
+
+    margin: 30px;
+    margin: 30px;
+    text-shadow: 3px 0 #232931;
+    font-size: 2rem;
+    color: #4ECCA3;
+}
+
+.Click{
+    
+    padding: 10px 20px;
+    background-color: #4ECCA3;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(55, 71, 131);
+}
+
+
+button{
+    color: antiquewhite;
+    border: none;
+    text-decoration: none;
+}
+
+
+
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+     height: 100vh;
+    
+
+}
+
+
+.wish{
+
+    padding: 10px 20px;
+    background-color: #4ECCA3;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgb(55, 71, 131);
+
+}
+
+
+.name{
+font-family: EuclidCircularB, -apple-system, BlinkMacSystemFont, Helvetica, Arial ;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .main h2 {
+        font-size: 1.5rem;
+    }
+    .main h3 {
+        font-size: 1rem;
+    }
+    .Click {
+        padding: 5px 10px;
+    }
+    .wish {
+        font-size: 1.5rem;
+    }
+    .name {
+        font-size: 0.8rem;
+    }
+    .pickup {
+        font-size: 0.8rem;
+    }
+}
+
